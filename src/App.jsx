@@ -26,7 +26,7 @@ function computecolours(randomword,userguessed){
     }
     for(let j=0;j<5;j++){
       if(results[i].char.toUpperCase()===randomword[j]){
-        results[i].color="yellow"
+        results[i].color="orange"
         break;
       }
 
