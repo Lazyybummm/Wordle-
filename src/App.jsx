@@ -58,7 +58,7 @@ function App(){
     }
     else{
       if(guessses==5){
-        alert("thats all the guesses you will have ")
+        alert("thats al{l the guesses you will have ")
         window.location.reload();
       }
       setguesses(c=>c+1)
@@ -83,7 +83,7 @@ function App(){
 
     }
   }
-  return <>{randomword}
+  return <>
   {status?<center><h2>you have guessed the word</h2></center>:ui.map((row, rowIndex) => (
         <div key={rowIndex} style={{ display: "flex", gap: "10px" }}>
           {row.map((item, i) => (
