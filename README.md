@@ -1,12 +1,34 @@
-# React + Vite
+# 🎯 Wordle Clone – React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Wordle-inspired word guessing game built with **React**. This app allows users to guess a 5-letter word within a limited number of attempts, with visual color feedback for correctness of each letter.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎲 Random 5-letter word selection from a predefined list.
+- 🎨 Visual feedback using:
+  - 🟩 Green for correct letter in correct position.
+  - 🟨 Yellow for correct letter in wrong position.
+  - ⬜ Gray for incorrect letters.
+- 🧠 Input validation and guess limits.
+- 🔄 Auto-reloads after all guesses are used.
+- 📱 Clean, responsive UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript
+- HTML & CSS
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/wordle-clone.git
+cd wordle-clone
